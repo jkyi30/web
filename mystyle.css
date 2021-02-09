@@ -1,7 +1,12 @@
 body {
 background-color: lightcyan ;
+border: thick double #32a1ce;
 }
 
 h1 {
-  font: italic "Fira Sans", serif;
+  font: 2em "Fira Sans", sans-serif;
+}
+
+h2 {
+	font: italic small-caps bold 16px/2 cursive;
 }
