@@ -3,10 +3,26 @@ background-color: lightcyan ;
 border: thick double #32a1ce;
 }
 
+ul {
+	border: thick double #32a1ce;
+	border-style: inset;
+padding-top: 1em;
+padding-bottom: 1em;
+	
+}
 h1 {
   font: 2em "Fira Sans", sans-serif;
 }
 
 h2 {
 	font: italic small-caps bold 16px/2 cursive;
+}
+
+
+.wrapper {
+    display: flex;
+}
+
+.wrapper > div {
+    flex: 1;
 }
