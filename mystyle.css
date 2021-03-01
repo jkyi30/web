@@ -1,6 +1,6 @@
 body {
 background-color: lightcyan ;
-border: thick double #32a1ce;
+
 }
 
 ul {
@@ -8,14 +8,18 @@ ul {
 	border-style: inset;
 padding-top: 1em;
 padding-bottom: 1em;
+font-size: 20px;
 	
 }
 h1 {
-  font: 2em "Fira Sans", sans-serif;
+  font: 48px "Fira Sans", sans-serif;
+  text-align:center;
+ 
 }
 
 h2 {
-	font: italic small-caps bold 16px/2 cursive;
+	font: italic small-caps bold 30px cursive;
+	padding-left: 30px;
 }
 
 
@@ -23,6 +27,63 @@ h2 {
     display: flex;
 }
 
-.wrapper > div {
+.wrapper > nav {
     flex: 1;
+}
+
+.box1 {
+	color: blue;
+}
+
+.box44 {
+	color: blue;	
+}
+
+.box12 {
+	color: blue;
+	
+}
+
+.box23 {
+	color: blue;
+	
+}
+
+p {
+	font-size: 24px;
+	color: grey;
+	text-align:justify;
+	margin: 5px;
+	padding-right: 0.5em;
+	font: "andale mono", monospace;
+
+}
+
+
+img {
+width: 450px;
+float: left;
+margin: 4px;
+padding-right: 0.5em;
+}
+
+.resize {
+	width: 1000px;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+	}
+
+h3{
+	font-size: 25px;
+
+}
+
+a:hover {
+	color:darkblue;
+}
+
+.extra {
+	padding-top:30px;
 }
