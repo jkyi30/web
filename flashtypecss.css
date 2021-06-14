@@ -5,16 +5,18 @@ body {
 h1 {
 	color: rgb(250,128,114);
     font: italic small-caps bold 45px sans-serif;
+	text-align:center;
 }
 
 h2 {
-	color: rgb(250,128,114);
+	color: rgb(125,90,114);
     font: italic small-caps bold sans-serif;
+	text-align:center;
 }
 
 ul {
 	color: black;
-	font-family: Lucida Handwriting, cursive;
+	font-family: Georgia, serif;
 	border-color: peachpuff;
 	border-style: solid;
 	border-width: thick;
@@ -28,4 +30,35 @@ ul {
 
 .fit-picture {
 	height: 300px;
+}
+
+
+.GUI{
+	display:flex;
+	justify-content:center; 
+}
+
+a:hover {
+	color:black;
+}
+
+p{
+	text-align: center;
+	font-size: 17px;
+	font-family: Georgia, serif;
+}
+
+
+.table {
+	font-size: 16px;
+	display: flex;
+	
+}
+
+.table > nav {
+    flex:0.5;
+}
+
+.other {
+	color: black;
 }
